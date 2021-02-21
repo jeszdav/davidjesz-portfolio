@@ -1,0 +1,43 @@
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  display: flex !important;
+  flex-direction: column;
+}
+
+.main-title {
+  margin-bottom: 0;
+}
+
+.contacts {
+  min-height: calc(100vh - 89.6px - 138.8px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.contact-box {
+  margin-bottom: 2rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.phone__details {
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: ease-in-out 0.25s;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.fas,
+.fab {
+  font-size: 2.5rem !important;
+}

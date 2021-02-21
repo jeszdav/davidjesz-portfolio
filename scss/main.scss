@@ -1,0 +1,72 @@
+@import "variables";
+@import "nav";
+@import "skills";
+@import "projects";
+@import "footer";
+@import "contact";
+@import "responsive";
+
+/* -------- BASIC SETUP -------- */
+
+body {
+  background-color: #1e2831;
+  color: #dbe3e9;
+  font-family: "Poppins", sans-serif;
+  display: initial;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.logo-symbol {
+  background-color: $primary-color;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.btn {
+  border-radius: 30px;
+  border: 1px solid #2b3946;
+  font-size: 0.9rem;
+  padding: 1rem 2rem;
+}
+
+/* -------- HOME -------- */
+
+.name {
+  color: white;
+}
+
+/* -- My profile image --*/
+.me {
+  border: 18px solid #2b3946;
+  border-radius: 50%;
+  max-width: 300px;
+  min-width: 150px;
+  margin: 0 auto;
+}
+
+.job-title {
+  color: #92a8bc;
+}
+/* -- Buttons --*/
+
+.home-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fas,
+.fab {
+  font-size: 2rem;
+}

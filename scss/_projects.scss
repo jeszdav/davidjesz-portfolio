@@ -1,0 +1,83 @@
+/* -------- BASIC SETUP -------- */
+
+html {
+  height: initial;
+}
+
+body {
+  min-height: 100%;
+  min-height: initial;
+  display: initial;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* -- Page title --*/
+
+.main-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* -- Project-box --*/
+
+.project-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  &:first-child {
+    margin-top: 1rem;
+  }
+  &__header {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: ease-in-out 0.25s;
+    color: white;
+    display: flex;
+    align-items: center;
+    max-width: 50px;
+    &:hover {
+      text-decoration: none;
+      color: $primary-color;
+    }
+  }
+}
+
+.web {
+  margin-top: 1rem;
+}
+
+.git {
+  margin-top: 0.25rem;
+}
+
+/* -- Fontawesome Icons --*/
+
+.technologies {
+  color: $primary-color;
+  &__header {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.fas,
+.fab {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.fas.fa-laptop-code {
+  font-size: 2.25rem !important;
+}

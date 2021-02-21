@@ -1,0 +1,358 @@
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.skills {
+  border-top: 1px solid #24313c;
+  /*  padding-top: 2rem; */
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.skill-box {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill-box p {
+  font-size: 1.1rem;
+}
+
+.fas,
+.fab {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #00a3e1;
+}
+
+/* -------- BASIC SETUP -------- */
+html {
+  height: initial;
+}
+
+body {
+  min-height: 100%;
+  min-height: initial;
+  display: initial;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* -- Page title --*/
+.main-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* -- Project-box --*/
+.project-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+}
+
+.project-box:first-child {
+  margin-top: 1rem;
+}
+
+.project-box__header {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.project-box__link {
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 50px;
+}
+
+.project-box__link:hover {
+  text-decoration: none;
+  color: #00a3e1;
+}
+
+.web {
+  margin-top: 1rem;
+}
+
+.git {
+  margin-top: 0.25rem;
+}
+
+/* -- Fontawesome Icons --*/
+.technologies {
+  color: #00a3e1;
+}
+
+.technologies__header {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.fas,
+.fab {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.fas.fa-laptop-code {
+  font-size: 2.25rem !important;
+}
+
+/* -- Footer --*/
+.footer {
+  margin-top: auto;
+  min-height: 10vh;
+  background-color: #11171c;
+  border-top: 1px solid #24313c;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-title {
+  margin-bottom: 0;
+}
+
+.contacts {
+  min-height: calc(100vh - 89.6px - 138.8px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.25rem;
+}
+
+.contact-box {
+  margin-bottom: 2rem;
+}
+
+.contact-box:last-child {
+  margin-bottom: 0;
+}
+
+.phone__details {
+  text-decoration: none;
+  display: block;
+  color: white;
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+}
+
+.phone__details:hover {
+  color: #00a3e1;
+}
+
+.fas,
+.fab {
+  font-size: 2.5rem !important;
+}
+
+@media (min-width: 576px) {
+  .skill-box p {
+    text-align: center;
+  }
+  .project-box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacts {
+    min-height: initial;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    font-size: 1.5rem;
+  }
+  .fas,
+  .fab {
+    font-size: 3rem;
+  }
+  .skill-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .skill-box {
+    min-height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar-nav {
+    width: 50%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar-nav {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+/* -------- BASIC SETUP -------- */
+body {
+  background-color: #1e2831;
+  color: #dbe3e9;
+  font-family: "Poppins", sans-serif;
+  display: initial;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.logo-symbol {
+  background-color: #00a3e1;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.btn {
+  border-radius: 30px;
+  border: 1px solid #2b3946;
+  font-size: 0.9rem;
+  padding: 1rem 2rem;
+}
+
+/* -------- HOME -------- */
+.name {
+  color: white;
+}
+
+/* -- My profile image --*/
+.me {
+  border: 18px solid #2b3946;
+  border-radius: 50%;
+  max-width: 300px;
+  min-width: 150px;
+  margin: 0 auto;
+}
+
+.job-title {
+  color: #92a8bc;
+}
+
+/* -- Buttons --*/
+.home-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fas,
+.fab {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
